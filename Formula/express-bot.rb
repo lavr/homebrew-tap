@@ -1,26 +1,26 @@
 class ExpressBot < Formula
   desc "CLI and HTTP server for sending messages to eXpress"
   homepage "https://github.com/lavr/express-bot"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/lavr/express-bot/releases/download/0.4.0/express-bot-darwin-arm64.tar.gz"
-      sha256 "5761c0d2575fd306b5cf4515f5da3d86de0811de9a517a41f3a81d8c845a3537"
+      url "https://github.com/lavr/express-bot/releases/download/0.5.0/express-bot-darwin-arm64.tar.gz"
+      sha256 "852e4acbdc5b8849eab369d9f6e13e3c3ab946218607825e27351c4ba4ca8e40"
     else
-      url "https://github.com/lavr/express-bot/releases/download/0.4.0/express-bot-darwin-amd64.tar.gz"
-      sha256 "43e22be7486c971f53000fb3dffbbea97a6646475b61a047d1a3c41d5d367ab0"
+      url "https://github.com/lavr/express-bot/releases/download/0.5.0/express-bot-darwin-amd64.tar.gz"
+      sha256 "44339a1638a431f517023e26779b5f3bc67e9d9f0440ebff7df3eafce735ddce"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/lavr/express-bot/releases/download/0.4.0/express-bot-linux-arm64.tar.gz"
-      sha256 "87c9e58b6ff86b3849e909e5ab751cdd66e6b9975a468002f0d0507eb33ebf7e"
+      url "https://github.com/lavr/express-bot/releases/download/0.5.0/express-bot-linux-arm64.tar.gz"
+      sha256 "753aa5aaa1b3748c51c6b26abada6c7732ea2ac523bc538b6954c76aa2b2d04b"
     else
-      url "https://github.com/lavr/express-bot/releases/download/0.4.0/express-bot-linux-amd64.tar.gz"
-      sha256 "c4823da83697e59a81221801c734e2df9659b02166f8947a7926e12c4c0f9e86"
+      url "https://github.com/lavr/express-bot/releases/download/0.5.0/express-bot-linux-amd64.tar.gz"
+      sha256 "dedd94dc197f642d23d7d013138c3535c4e3956d406e2fe6c5312c1a8d9a681e"
     end
   end
 
