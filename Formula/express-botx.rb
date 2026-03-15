@@ -1,26 +1,26 @@
 class ExpressBotx < Formula
   desc "CLI and HTTP server for sending messages to eXpress"
   homepage "https://github.com/lavr/express-botx"
-  version "0.23.0"
+  version "0.24.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/lavr/express-botx/releases/download/0.23.0/express-botx-darwin-arm64.tar.gz"
-      sha256 "43e4ffc176cdf274d935104fe48d3709024a7f57e09df999c3bd98382747d0cb"
+      url "https://github.com/lavr/express-botx/releases/download/0.24.0/express-botx-darwin-arm64.tar.gz"
+      sha256 "675ba0025dd3485c7c318e3065b59b09f23d15d992fe9e81566e210920ca3212"
     else
-      url "https://github.com/lavr/express-botx/releases/download/0.23.0/express-botx-darwin-amd64.tar.gz"
-      sha256 "87ba16d96694f6fd6359c1638f13fbfdaf7f512762cb2f58ede3ab6bed053dff"
+      url "https://github.com/lavr/express-botx/releases/download/0.24.0/express-botx-darwin-amd64.tar.gz"
+      sha256 "7a518a7410642b65cb3a8e0ca15ff8486e2d5c2bd59ca8ffc17869264e9b10df"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/lavr/express-botx/releases/download/0.23.0/express-botx-linux-arm64.tar.gz"
-      sha256 "98e27ec4a7921d795ee1855d73b673e1679b60e77610dfe25e977041cd8df278"
+      url "https://github.com/lavr/express-botx/releases/download/0.24.0/express-botx-linux-arm64.tar.gz"
+      sha256 "b8e8af35a268751fb80abe0def4438758f3fd35753894e23b4ae2dfbb1bff917"
     else
-      url "https://github.com/lavr/express-botx/releases/download/0.23.0/express-botx-linux-amd64.tar.gz"
-      sha256 "5619d37f662042f7ccdae6c3a50a24d639a50507882db258363f9065ad851c08"
+      url "https://github.com/lavr/express-botx/releases/download/0.24.0/express-botx-linux-amd64.tar.gz"
+      sha256 "4dc388aca1ec869eed8252696160f63e0ed9d97e32d25bd69149e955bd071db7"
     end
   end
 
