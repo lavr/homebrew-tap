@@ -7,20 +7,20 @@ class ExpressBotx < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/lavr/express-botx/releases/download/0.29.1/express-botx-darwin-arm64.tar.gz"
-      sha256 "d9b8df23e5cbc3c8236c051ff764d15a73cd605555d9796869bb866669689475"
+      sha256 "360118e3040bc98830a47351321b0ba9ced5de0fedc2ff954caf6b75ab122179"
     else
       url "https://github.com/lavr/express-botx/releases/download/0.29.1/express-botx-darwin-amd64.tar.gz"
-      sha256 "556e711f790225ce09b67c583211d84d6f47eeef755e29045d928c5c386c32f5"
+      sha256 "d06570b80edf46dcc1e991c379390e37852895b5c1add2117494c3aafff9c50c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/lavr/express-botx/releases/download/0.29.1/express-botx-linux-arm64.tar.gz"
-      sha256 "812451a46a548f719f4494a50bce1c549079b8dd4cf4e290355dc75411f89681"
+      sha256 "391e34694fbb76d9bc1aa4acca1b50d102f2afdcf20fb1f3a6c22b94ec107aaf"
     else
       url "https://github.com/lavr/express-botx/releases/download/0.29.1/express-botx-linux-amd64.tar.gz"
-      sha256 "e9dd9dd65de3d85035760c96ef8e460413846f9f2904c40177b916eb42fb6d7f"
+      sha256 "4bdf7e81ae1f072f2da6ab7e0b77d00b4eb528094732b0df35814e97cc5ccdc5"
     end
   end
 
