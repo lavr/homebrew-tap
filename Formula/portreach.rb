@@ -1,26 +1,26 @@
 class Portreach < Formula
   desc "Distributed network reachability checker (multi-point host:port probe)"
   homepage "https://github.com/lavr/portreach"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/lavr/portreach/releases/download/0.1.0/portreach-darwin-arm64.tar.gz"
-      sha256 "0e99b7e83166c37083506ff0e1a8ae9a7bcaa9aca1b80dd59ce8ca0d324aeedc"
+      url "https://github.com/lavr/portreach/releases/download/0.2.0/portreach-darwin-arm64.tar.gz"
+      sha256 "7ae2dcd0c634c30951d329a65975eed52c3ec49c78273145f7051a4df2eff287"
     else
-      url "https://github.com/lavr/portreach/releases/download/0.1.0/portreach-darwin-amd64.tar.gz"
-      sha256 "0e0d1b0fb63f77647e036160e2a422d478433758d5a0bfac036d00c82e4cdaf6"
+      url "https://github.com/lavr/portreach/releases/download/0.2.0/portreach-darwin-amd64.tar.gz"
+      sha256 "583fdb447d360a0d0c69f491dea1c7f98ae908ec45c3bbacf22cb1f2a821cdc3"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/lavr/portreach/releases/download/0.1.0/portreach-linux-arm64.tar.gz"
-      sha256 "b67a4cf4bbaa24f38b71fc9d77f194ba736e23ed29c993004ee91a4971a67867"
+      url "https://github.com/lavr/portreach/releases/download/0.2.0/portreach-linux-arm64.tar.gz"
+      sha256 "26173c9253c97e06cc4844620366f951fc776ad3a6b5e85b7fb98583e70a037d"
     else
-      url "https://github.com/lavr/portreach/releases/download/0.1.0/portreach-linux-amd64.tar.gz"
-      sha256 "9407a540b66f1f1c21ef8a222690e319dc6493c280b5e5f2de9694abe3368dc1"
+      url "https://github.com/lavr/portreach/releases/download/0.2.0/portreach-linux-amd64.tar.gz"
+      sha256 "71998e117f8b9490cb16e54781ea0a9ce876c5e2b01e63a8463ebb330f57193d"
     end
   end
 
